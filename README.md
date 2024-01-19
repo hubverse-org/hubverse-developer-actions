@@ -1,12 +1,9 @@
-# hubverse-developer-actions
-GitHub Actions for common hubverse developer CI tasks
-
-
-
-# hubverse-actions <img src="https://github.com/Infectious-Disease-Modeling-Hubs/hubDocs/blob/main/docs/_static/LOGO-CovidForecastHub_VIRUS-blue.png?raw=true" align="right" width="50px"/>
+# hubverse-developer-actions <img src="https://github.com/Infectious-Disease-Modeling-Hubs/hubDocs/blob/main/docs/_static/LOGO-CovidForecastHub_VIRUS-blue.png?raw=true" align="right" width="50px"/>
 
 <!-- badges: start -->
 <!-- badges: end -->
+
+> GitHub Actions for common hubverse developer CI tasks
 
 This repository stores [GitHub Actions](https://github.com/features/actions) for hubverse developers and packages, which can be used to do a variety of common hubverse developer CI tasks. 
 
