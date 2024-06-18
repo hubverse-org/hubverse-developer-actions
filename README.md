@@ -1,4 +1,4 @@
-# hubverse-developer-actions <img src="https://github.com/hubverse-org/hubDocs/blob/main/docs/_static/LOGO-CovidForecastHub_VIRUS-blue.png?raw=true" align="right" width="50px"/>
+# hubverse-developer-actions <img src="https://github.com/hubverse-org/hubDocs/blob/main/docs/_static/LOGO-hubverse.png?raw=true" align="right" width="50px"/>
 
 <!-- badges: start -->
 <!-- badges: end -->
