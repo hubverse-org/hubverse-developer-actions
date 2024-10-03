@@ -64,7 +64,7 @@ jobs:
       - name: Deploy PR preview to Netlify
         if: contains(env.isPush, 'false')
         id: netlify-deploy
-        uses: nwtgck/actions-netlify@v2
+        uses: nwtgck/actions-netlify@v3
         with:
           publish-dir: '${{ steps.deploy-dir.outputs.dir }}'
           production-branch: main
