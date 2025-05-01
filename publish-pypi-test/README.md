@@ -7,5 +7,5 @@ This workflow uses a trusted publisher when writing to TestPyPI, so there are a
 few one-time setup steps to complete before using it.
 
 See the Hubverse
-[Python release process documentation](https://hubverse.io/en/latest/developer/python.html#testpypi-setup)
+[Python release process documentation](https://docs.hubverse.io/en/latest/developer/python.html#testpypi-setup)
 for more information.
