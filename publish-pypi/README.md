@@ -12,5 +12,5 @@ This workflow uses a trusted publisher when writing to PyPI, so there are a
 few one-time setup steps to complete before using it.
 
 See the Hubverse
-[Python release process documentation](https://hubverse.io/en/latest/developer/python.html#pypi-setup)
+[Python release process documentation](https://docs.hubverse.io/en/latest/developer/python.html#pypi-setup)
 for more information.
