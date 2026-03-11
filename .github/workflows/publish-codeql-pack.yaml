@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  contents: read
   packages: write
 
 jobs:
@@ -16,8 +17,8 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Initialize CodeQL
-        uses: github/codeql-action/init@v3
+      - name: Set up CodeQL CLI
+        uses: github/codeql-action/setup-codeql@v3
 
       - name: Publish model pack
         run: codeql pack publish --dir codeql-model-pack/
