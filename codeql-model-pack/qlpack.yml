@@ -3,4 +3,5 @@ version: 1.0.0
 library: true
 extensionTargets:
   codeql/actions-all: ~0.4.0
-dataExtensions: models/**/*.yml
+dataExtensions:
+  - models/**/*.yml
