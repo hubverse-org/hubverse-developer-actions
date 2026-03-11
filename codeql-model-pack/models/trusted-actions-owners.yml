@@ -1,0 +1,9 @@
+extensions:
+  - addsTo:
+      pack: codeql/actions-all
+      extensible: trustedActionsOwnerDataModel
+    data:
+      - ["r-lib"]
+      - ["astral-sh"]
+      - ["pypa"]
+      - ["sigstore"]

@@ -1,0 +1,25 @@
+name: Publish CodeQL model pack
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'codeql-model-pack/**'
+  workflow_dispatch:
+
+permissions:
+  packages: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+
+      - name: Publish model pack
+        run: codeql pack publish --dir codeql-model-pack/
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
